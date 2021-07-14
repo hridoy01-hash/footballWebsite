@@ -240,8 +240,47 @@ h3,p{
 
 /* media query*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 991px) {
     .header-section{
         width: 100%;
     }
+
+    .menubar {
+        justify-content: space-between;
+        padding-left: 24px;
+        padding-top: 50px;
+    }
+    .header-baner {
+        display: block;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+    .header-section {
+        width: 100%;
+        height: 1034px;
+        background-color: #2d25a0;
+    }
+    .baner-photo img {
+        width: 556.01px;
+        height: 438px;
+        align-items: center;
+        
+        align-items: center;
+    }
+
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: space-between;
+        grid-row-gap: 27px;
+        align-items: center;
+        padding-left: 400px;
+        
+    }
+    .top-player{
+        
+        justify-content: center;
+    }
+
+
   }
